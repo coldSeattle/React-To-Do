@@ -1,0 +1,57 @@
+// the system of class-naming-for-dark/light properties 
+
+/*  
+    @def: the default properties for dark/light mode
+*/
+
+$textColorLightMode: #000000;
+$listSideBGLightMode: #ffffff;
+$hintGrayBoldColorLightMode: #e5e5e5;
+$hintGrayLigthColorLightMode: #c7c7c7;
+$textColorWhiteLightMode: #ffffff;
+$textColorGrayLightMode: #9c9c9c;
+$greenHexLightMode: #42b883;
+$limeHexLightMode: #B6E6BD;
+$oceanBlueHexLightMode: #64c4ed;
+$pinkHexLightMode: #ffbbcc;
+$greenLightHexLightMode: #b6e6bd;
+$grayHexLightMode: #c9d1d3;
+$redHexLightMode: #ff6464;
+$purpleHexLightMode: #c355f5;
+$blackHexLightMode: #09011a;
+$listSideBGLightMode: #f4f6f8;
+$borderLightMode: 1px solid transparent;
+$removeIconLightMode: $redHexLightMode;
+$listItemBGLightMode: transparent;
+$btnAddBGLightMode: #42b883;
+$contentBGLightMode: #fff;
+$listNameForContentSidetextColorLightMode: #64C4ED;
+$addHintBtnTextColorLightMode: #B4B4B4;
+$btnAddTaskLightMode: #4DD599;
+$taskInputTextColorLightMode: #000;
+
+$textColorDarkMode: #ffffff;
+$hintGrayBoldColorDarkMode: #e5e5e5;
+$hintGrayLigthColorDarkMode: #c7c7c7;
+$textColorWhiteDarkMode: #ffffff;
+$textColorGrayDarkMode: #fff;
+$greenHexDarkMode: #42b883;
+$limeHexDarkMode: #B6E6BD;
+$oceanBlueHexDarkMode: #64c4ed;
+$pinkHexDarkMode: #ffbbcc;
+$greenLightHexDarkMode: #b6e6bd;
+$grayHexDarkMode: #c9d1d3;
+$redHexDarkMode: #ff6464;
+$purpleHexDarkMode: #c355f5;
+$blackHexDarkMode: #09011a;
+// $listSideBGDarkMode: #9f57ff;
+$listSideBGDarkMode: #A16AE8;
+$borderDarkMode: 1px solid #fff;
+$removeIconDarkMode: $redHexDarkMode;
+$listItemBGDarkMode: transparent;
+$btnAddBGDarktMode: #42b883;
+$contentBGDarkMode: #282c35;
+$listNameForContentSidetextColorDarkMode: #64C4ED;
+$addHintBtnTextColorDarkMode: #B4B4B4;
+$btnAddTaskDarkMode: #4DD599;
+$taskInputTextColorDarkMode: #fff;

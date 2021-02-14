@@ -1,0 +1,82 @@
+.listItem {
+    width: 160px;
+    min-height: 37px;
+    height: 37px;
+    left: 20px;
+    top: 140px;
+    background: var(--listItemBG);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border: var(--border);
+
+    .listItemRemoveSvg {
+        visibility: hidden;
+        margin-right: 9px;
+        z-index: 999;
+    }
+}
+
+.listItem:hover {
+    background: #fff;
+    color: black;
+
+    .listItemText {
+        color: black;
+    }
+
+    .listItemRemoveSvg {
+        visibility: visible;
+    }
+}
+
+.activeItem {
+    background: #fff;
+    color: black;
+
+    .listItemText {
+        color: black;
+    }
+}
+
+.listItemText {
+    color: var(--textColor);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: "RobotoMedium";
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 5px;
+    transition: all 0.1s ease;
+    overflow: hidden;
+    max-width: 70%;
+}
+
+.listItemRemoveSvg {
+    z-index: 11;
+
+    path {
+        fill: var(--removeIcon);
+    }
+
+    transition: transform 0.2s;
+}
+
+.listItemRemoveSvg:hover {
+    path {
+        fill: var(--removeIcon);
+    }
+
+    transform: scale(1.2);
+}
+
+.IfArrrayIsEmpltyAlert {
+    margin-top: 20px;
+    color: var(--textColor)
+}

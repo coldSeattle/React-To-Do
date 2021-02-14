@@ -1,0 +1,66 @@
+.taskItem {
+    width: 100%;
+    height: auto;
+    margin: 10px 0 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.closeSvg {
+    visibility: hidden;
+}
+
+.taskItem:hover {
+    .closeSvg {
+        visibility: visible;
+    }
+}
+
+.task {
+    width: 80%;
+    border: none;
+    margin-left: 9px;
+    background: transparent;
+    // color: taskInputTextColor;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: var(--taskInputTextColor);
+}
+
+
+.doneBlock {
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+    border: 2px solid #E8E8E8;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.checked {
+    border-color: #4DD599;
+    background: #4DD599;
+
+    .done {
+        path {
+            stroke: #fff;
+        }
+    }
+}
+
+.checked+.task {
+    text-decoration: line-through;
+    transition: all 0.1s ease;
+    cursor: default;
+}
+
+.closeSvg {
+    cursor: pointer;
+}

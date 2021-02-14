@@ -1,0 +1,40 @@
+.AllTasks {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.AllTasksIcon {
+  fill: var(--textColorGray);
+
+  path {
+    fill: var(--textColorGray);
+  }
+}
+
+.AllTasksTitle {
+  color: var(--textColor);
+  margin-left: 5px;
+}
+
+// lists
+
+.lists {
+  min-width: 200px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: scroll;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-bottom: 50px;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+  /* make scrollbar transparent */
+}

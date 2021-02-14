@@ -1,0 +1,151 @@
+@import "../variables.scss";
+
+
+:root {
+  --textColor: #{$textColorLightMode};
+  --listSideBG: #{$listSideBGLightMode};
+  --hintGrayBoldColor: #{$hintGrayBoldColorLightMode};
+  --hintGrayLigthColor: #{$hintGrayLigthColorLightMode};
+  --textColorWhite: #{$textColorWhiteLightMode};
+  --textColorGray: #{$textColorGrayLightMode};
+  --greenHex: #{$greenHexLightMode};
+  --limeHex: #{$limeHexLightMode};
+  --oceanBlueHex: #{$oceanBlueHexLightMode};
+  --pinkHex: #{$pinkHexLightMode};
+  --greenLightHex: #{$greenLightHexLightMode};
+  --grayHex: #{$grayHexLightMode};
+  --redHex: #{$redHexLightMode};
+  --purpleHex: #{$purpleHexLightMode};
+  --blackHex: #{$blackHexLightMode};
+  --oceanBlueHexDarkMode:#{$oceanBlueHexLightMode};
+  --listSideBG: #{$listSideBGLightMode};
+  --border: #{$borderLightMode};
+  --removeIcon: #{$removeIconLightMode};
+  --listItemBG: #{$listItemBGLightMode};
+  --btnAddBG: #{$btnAddBGLightMode};
+  --contentBG: #{$contentBGLightMode};
+  --listNameForContentSidetextColor: #{$listNameForContentSidetextColorLightMode};
+  --addHintBtnTextColor: #{$addHintBtnTextColorLightMode};
+  --btnAddTask: #{$btnAddTaskLightMode};
+  --taskInputTextColor:#{$taskInputTextColorLightMode};
+}
+
+html {
+  --textColor: #{$textColorWhiteLightMode};
+  --listSideBG: #{$listSideBGLightMode};
+  --hintGrayBoldColor: #{$hintGrayBoldColorLightMode};
+  --hintGrayLigthColor: #{$hintGrayLigthColorLightMode};
+  --textColorWhite: #{$textColorWhiteLightMode};
+  --textColorGray: #{$textColorGrayLightMode};
+  --greenHex: #{$greenHexLightMode};
+  --limeHex: #{$limeHexLightMode};
+  --oceanBlueHex: #{$oceanBlueHexLightMode};
+  --pinkHex: #{$pinkHexLightMode};
+  --greenLightHex: #{$greenLightHexLightMode};
+  --grayHex: #{$grayHexLightMode};
+  --redHex: #{$redHexLightMode};
+  --purpleHex: #{$purpleHexLightMode};
+  --blackHex: #{$blackHexLightMode};
+  --oceanBlueHexDarkMode:#{$oceanBlueHexLightMode};
+  --listSideBG: #{$listSideBGLightMode};
+  --border: #{$borderLightMode};
+  --removeIcon: #{$removeIconLightMode};
+  --listItemzBG: #{$listItemBGLightMode};
+  --btnAddBG: #{$btnAddBGLightMode};
+  --contentBG: #{$contentBGLightMode};
+  --listNameForContentSidetextColor: #{$listNameForContentSidetextColorLightMode};
+  --addHintBtnTextColor: #{$addHintBtnTextColorLightMode};
+  --btnAddTask: #{$btnAddTaskLightMode};
+  --taskInputTextColor:#{$taskInputTextColorLightMode};
+  transition: all 0.4s ease;
+  background-color: #e5e5e5;
+  // color: #000;
+}
+
+@media (prefers-color-scheme: dark) {
+  html.dark {
+    --textColor: #{$textColorDarkMode};
+    --listSideBG: #{$listSideBGDarkMode};
+    --hintGrayBoldColor: #{$hintGrayBoldColorDarkMode};
+    --hintGrayLigthColor: #{$hintGrayLigthColorDarkMode};
+    --textColorWhite: #{$textColorWhiteDarkMode};
+    --textColorGray: #{$textColorGrayDarkMode};
+    --greenHex: #{$greenHexDarkMode};
+    --limeHex: #{$limeHexDarkMode};
+    --oceanBlueHex: #{$oceanBlueHexDarkMode};
+    --pinkHex: #{$pinkHexDarkMode};
+    --greenLightHex: #{$greenLightHexDarkMode};
+    --grayHex: #{$grayHexDarkMode};
+    --redHex: #{$redHexDarkMode};
+    --purpleHex: #{$purpleHexDarkMode};
+    --blackHex: #{$blackHexDarkMode};
+    --oceanBlueHexDarkMode:#{$oceanBlueHexDarkMode};
+    --listSideBG: #{$listSideBGDarkMode};
+    --border: #{$borderDarkMode};
+    --removeIcon: #{$removeIconDarkMode};
+    --listItemBG: #{$listItemBGDarkMode};
+    --btnAddBG: #{$btnAddBGDarktMode};
+    --contentBG: #{$contentBGDarkMode};
+    --listNameForContentSidetextColor: #{$listNameForContentSidetextColorDarkMode};
+    --addHintBtnTextColor: #{$addHintBtnTextColorDarkMode};
+    --btnAddTask: #{$btnAddTaskDarkMode};
+    --taskInputTextColor:#{$taskInputTextColorDarkMode};
+    background-color: #130d21;
+    // color: #fff;
+  }
+}
+
+.react-toggle-track-check,
+.react-toggle-track-x {
+  margin-top: 11px;
+}
+
+.react-toggle-track-check {
+  margin-left: -5px;
+}
+
+.react-toggle-track-x {
+  margin-right: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+input {
+  text-indent: 5px;
+}
+
+@font-face {
+  font-family: 'RobotoBlack';
+  src:
+    url('./fonts/Roboto-Black.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'RobotoMedium';
+  src: url('./fonts/Roboto-Medium.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'RobotoLight';
+  src: url('./fonts/Roboto-Light.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'RobotoRegular';
+  src: url('./fonts/Roboto-Regular.ttf') format('truetype'),
+}
+
+p,
+li {
+  font-family: 'RobotoMedium';
+}
+
+button {
+  cursor: pointer;
+}

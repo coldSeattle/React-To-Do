@@ -1,0 +1,16 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+  .App:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content {
+    min-width: 746px;
+    min-height: 529px;
+    display: flex;
+}

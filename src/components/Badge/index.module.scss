@@ -1,0 +1,43 @@
+@import "../../index.scss";
+
+
+.badge {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 30px;
+  margin-left: 5px;
+}
+.grey {
+  background-color: var(--grayHex);
+}
+
+.lime {
+  background-color: var(--limeHex);
+}
+
+.purple {
+  background-color: var(--purpleHex);
+}
+
+.black {
+  background-color: var(--blackHex);
+}
+
+.red {
+  background-color: var(--redHex);
+}
+
+.green {
+  background-color: var(--greenHex);
+}
+
+.blue {
+  background-color: var(--oceanBlueHex);
+}
+
+.pink {
+  background-color: var(--pinkHex);
+}
+
+

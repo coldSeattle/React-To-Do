@@ -1,0 +1,26 @@
+// hint button add task
+
+.addListHint {
+    border: none;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: inherit;
+    min-height: 37px;
+    height: 37px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.addListHintText {
+    color: var(--textColor);
+    margin-left: 5px;
+}
+
+.addListHintIcon {
+    path {
+        stroke: var(--textColorGray);
+    }
+}

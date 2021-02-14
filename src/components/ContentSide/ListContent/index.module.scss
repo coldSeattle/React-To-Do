@@ -1,0 +1,41 @@
+.Content {
+  margin-top: 57px;
+  margin-left: 56px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.listTitle {
+  width: calc(70%);
+  height: 39px;
+  font-family: "RobotoMedium";
+  font-size: 32px;
+  line-height: 39px;
+  color: var(--listNameForContentSidetextColor);
+  background: transparent;
+  border: none;
+  text-align: center;
+}
+
+.listTitle:read-only {
+  cursor: default;
+}
+
+.EditSvg {
+  width: calc(30%);
+  cursor: pointer;
+}
+
+
+.tasksContainer {
+  width: 100%;
+  margin-top: 20px;
+}
+
+
+
+.IfArrrayIsEmpltyAlert {
+  color: var(--textColor)
+}
